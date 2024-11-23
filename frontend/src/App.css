@@ -1,0 +1,89 @@
+.App {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.account-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.account-info {
+  margin-top: 15px;
+}
+
+.account-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.transactions {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-list {
+  margin-top: 20px;
+}
+
+.transaction-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.transaction-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.beneficiary {
+  font-weight: 500;
+}
+
+.amount {
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+h2 {
+  color: #333;
+  margin: 0;
+}
+
+.loading,
+.error,
+.no-transactions {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.loading {
+  color: #666;
+}
+
+.no-transactions {
+  color: #666;
+  font-style: italic;
+}
